@@ -58,10 +58,45 @@ shinyUI(fluidPage(
     mainPanel(
       tabsetPanel(id = "tabs",  # Aggiunto id per i conditionalPanel
                   tabPanel("Caricamento File",
-                           h3("Benvenuti su DATAumpa!"),
-                           p("Questa applicazione consente di caricare un dataset in formato Excel (.xlsx) e di eseguire diverse analisi."),
-                           p("Usa i tab in alto per navigare tra le diverse funzionalità disponibili."),
-                           p("Inizia caricando il tuo file Excel utilizzando il widget nella barra laterale.")
+                           h2("Welcome on DATAumpa!"),
+                           p(strong("DATAumpa"), "is a web application built with Shiny to simplify data analysis tasks for your lab collaborators (and for your wife!). The name ", strong("DATAumpa")," playfully references the song ", a(href = 'https://youtu.be/odDe4__l7iY', target = '_blank', "Da da um pa by the Kessler Twins"), ", adding a touch of fun to your data work."),
+                           br(),
+                           
+                           # Add Zenodo DOI here
+                           p("Feel free to cite ", strong("DATAumpa"), " trought its DOI:"),
+                           p(HTML('<a href="https://zenodo.org/doi/10.5281/zenodo.13732371"><img src="https://zenodo.org/badge/854073983.svg" alt="DOI"></a>')),
+                           br(),
+                           
+                           h3("Features:"),
+                           
+                           h4("1. Dynamic Table One"),
+                           p("Easily create and customize a summary table using the powerful" ,em("Arsenal "), "library. This feature allows you to select variables, choose grouping options, and generate comprehensive tables with just a few clicks."),
+                           br(),
+
+                           
+                           h4("2. Multivariate Logistic Regression"),
+                           p("Perform logistic regression analysis effortlessly. Select your outcome variable and predictors, and get detailed output including odds ratios, confidence intervals, and p-values. Plus, keep an eye on collinearity with VIF (Variance Inflation Factor) calculations."),
+                           br(),
+                           
+                           h4("3. Multivariate Linear Regression"),
+                           p("Run linear regression analyses with ease. Customize your model, and receive detailed outputs, including beta coefficients, confidence intervals, and VIF values to assess collinearity."),
+                           br(),
+                           
+                           h4("4. Custom Box Plot"),
+                           p("Create visually appealing box plots to explore your data. Customize the appearance, add jitter points, calculate p-values, and even facet by a grouping variable. Download your final plot as a PDF for easy sharing."),
+                           br(),
+
+                           
+                           h3("How to Use DATAumpa"),
+                           p(""),
+                           p(strong("1. Upload Your Dataset:"),  "Start by uploading an Excel file (.xlsx) in the Caricamento File tab."),
+                           p(strong("2. Navigate Through Tabs:"),  " Explore the various features by selecting different tabs, including Table One, Logistic Regression, Linear Regression, and Box Plot."),
+                           p(strong("3. Customize Outputs:"),  " Use the sidebar to customize variables, model settings, and plot appearance."),
+                           p(strong("4. Download Results:"),  " Download your customized box plot or view tables and regression results directly in the app."),
+                           br(),
+                           br()
+                           
+                           
                   ),
                   
                   tabPanel("Tabella 1",
