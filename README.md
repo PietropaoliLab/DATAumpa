@@ -24,6 +24,6 @@ Create visually appealing box plots to explore your data. Customize the appearan
 4. **Download Results:** Download your customized box plot or view tables and regression results directly in the app.
 
 ## Get Started
-Dive into DATAumpa now! Click the link to access the app: [bit.ly/dataumpa](bit.ly/dataumpa)
+Dive into DATAumpa now! Click the link to access the app: [bit.ly/dataumpa](https://bit.ly/dataumpa)
 
 Happy analyzing! 🎵💻
