@@ -1,6 +1,9 @@
 # Welcome to DATAumpa!
 
-**DATAumpa** is a web application built with Shiny to simplify data analysis tasks for your lab collaborators (and for your wife!). The name "DATAumpa" playfully references the song *"Da da um pa"* by the Kessler Twins, adding a touch of fun to your data work.
+**DATAumpa** is a web application built with Shiny to simplify data analysis tasks for your lab collaborators (and for your wife!). The name "DATAumpa" playfully references the song *"Da da um pa"* by the Kessler Twins, adding a touch of fun to your data work. 
+
+Feel free to cite **DATAumpa through** its DOI: <a href="https://doi.org/10.5281/zenodo.13884181"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.13884181.svg" alt="DOI"></a>
+
 
 ## Features
 
